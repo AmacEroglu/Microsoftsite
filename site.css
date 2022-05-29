@@ -1,0 +1,49 @@
+body{
+font-family: sans-serif;
+font-size: 16px;
+}
+
+h1 {
+    color: blue;
+    background-color: red;
+}
+
+.colour-black {
+
+    color: rgb(1, 1, 1);
+    font-size: larger;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+a:hover {
+
+    text-decoration: underline;
+}
+
+#logo {
+    width: 160px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+#shop{
+    width: min-content;
+}
+
+.container-full{
+width: 100%;
+}
+.container{
+    width: 1000px;
+margin: 0 auto;
+}
+
+#slider{
+    width: 860px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
