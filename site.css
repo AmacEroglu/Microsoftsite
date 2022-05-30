@@ -1,0 +1,36 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#left>a{
+    display: inline-block;
+   }
+
+#left>img{
+width: 130px;
+}
+
+   #left>a{
+    text-decoration:none;
+    margin-left: 15px;
+    text-align: start;
+    color: black;
+}
+
+
+#right>a{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: end;
+    color: black;
+
+
+    
+}
