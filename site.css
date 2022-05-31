@@ -18,26 +18,42 @@
 }
 
 #logo {
-    display: flex;
     margin-right: 20px;
     width: 100px;
 }
 
 #left>a {
+    display: inline-block;
     text-decoration: none;
     margin-right: 15px;
     color: black;
+    text-align: left;
 }
 
 #right>a {
-    width: 100px;
+    display: inline-block;
     text-decoration: none;
     margin-right: 15px;
     color: black;
+    text-align: end;
 }
 
 
 .class-slider {
 display: flex;
 justify-content: center;
+}
+
+.slidertext{
+    position: absolute;
+    bottom: 400px;
+}
+
+.kutular{
+    display: inline-block;
+    height: 201px;
+    width: 358px;
+    border: 1px; color: black;
+    background-color: blanchedalmond;
+   
 }
