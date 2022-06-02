@@ -4,7 +4,6 @@
     margin: 20px auto;
     font-family: sans-serif;
     font-size: 16px;
-    display: flex;
     text-decoration: none;
     color: black;
 }
@@ -17,13 +16,22 @@
     text-decoration: underline;
 }
 
-#logo {
-    margin-right: 20px;
+#left img {
     width: 100px;
 }
 
-#left>a {
+#left{
     display: inline-block;
+    width: 60%;
+}
+
+#right{
+display: inline-block;
+width: 0%
+margin: 11px;
+}
+
+#left>a {
     text-decoration: none;
     margin-right: 15px;
     color: black;
@@ -31,7 +39,6 @@
 }
 
 #right>a {
-    display: inline-block;
     text-decoration: none;
     margin-right: 15px;
     color: black;
@@ -39,21 +46,33 @@
 }
 
 
-.class-slider {
-display: flex;
-justify-content: center;
+#slider {
+    display: flex;
+    justify-content: center;
+    margin: 10px  auto;
 }
 
-.slidertext{
-    position: absolute;
-    bottom: 400px;
+#spotlar {
+    display: flex;
+    justify-content: center;
 }
 
-.kutular{
-    display: inline-block;
-    height: 201px;
-    width: 358px;
-    border: 1px; color: black;
-    background-color: blanchedalmond;
-   
+
+#kutudisi{
+    width: 250;
+    height: 250;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
+
+.kutu{
+    width: 300px;
+    height: 250px;
+    background-color: bisque;
+    margin: 15px;
+
+}
+
+
+
