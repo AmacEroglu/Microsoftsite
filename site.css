@@ -57,6 +57,15 @@ margin: 11px;
     justify-content: center;
 }
 
+.spot{
+    margin: 3%;
+    text-align: center;
+}
+
+#kutufoto{
+    margin: 0 auto;
+}
+
 
 #kutudisi{
     width: 250;
