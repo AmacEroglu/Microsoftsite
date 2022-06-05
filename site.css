@@ -1,6 +1,120 @@
-body{
+body {
     margin: 0;
     border: 0;
     padding: 0;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
 }
+
+.container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+#left {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+#left>img {
+    width: 108px;
+    margin-left: -20px;
+    text-align: center;
+}
+
+#right {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+#right {
+    justify-content: end;
+}
+
+
+.nav a::after {
+
+    content: "";
+    display: block;
+    width: 0px;
+    height: 2px;
+    background-color: black;
+    transition: .3s;
+}
+
+.nav a:hover::after {
+    width: 100%;
+}
+
+.slider {
+    justify-content: center;
+}
+
+.slider h1{
+    font-weight: 500;
+}
+
+.slider-text {
+    position: absolute;
+    margin-top: 150px;
+    width: 70%;
+    margin-left: 5%;
+    font-size: 18px;
+    color: white;
+    font-weight: lighter;
+}
+
+.bilgi a {
+    padding: 10px;
+    border: 3px solid;
+    display: inline-block;
+    background-color: rgb(32, 103, 215);
+    border: 3px;
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.mini-spot-area{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.minispot{
+    width: 200px;
+}
+
+.minispot>a{
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    align-items: center;
+}
+
+.minispot a>p{
+    color: rgb(47, 91, 225);
+    margin-top: 3px;
+    font-size: large;
+    font-weight: 600;
+}
+
