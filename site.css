@@ -66,7 +66,7 @@ body {
     justify-content: center;
 }
 
-.slider h1{
+.slider h1 {
     font-weight: 500;
 }
 
@@ -87,12 +87,12 @@ body {
     background-color: rgb(32, 103, 215);
     border: 3px;
     text-decoration: none;
-    color:white;
+    color: white;
     font-weight: 500;
     font-size: 16px;
 }
 
-.mini-spot-area{
+.mini-spot-area {
     display: flex;
     justify-content: center;
     margin-top: 40px;
@@ -100,21 +100,79 @@ body {
     text-align: center;
 }
 
-.minispot{
+.minispot {
     width: 200px;
 }
 
-.minispot>a{
+.minispot>a {
     text-align: center;
     font-weight: normal;
     font-size: 18px;
     align-items: center;
 }
 
-.minispot a>p{
+.minispot a>p {
     color: rgb(47, 91, 225);
     margin-top: 3px;
     font-size: large;
     font-weight: 600;
 }
+
+.secondspot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.boxes>a>img{
+    width: 100%;
+}
+
+.boxes {
+    width: 400px;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.boxes a {
+    text-decoration: none;
+}
+
+.boxes a>h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.boxes>a>p {
+    color: black;
+    font-size: 15px;
+    width: 100%;
+}
+
+.boxes>a>h3{
+    font-size: 17px;
+    align-items: center;
+    color: rgb(32, 112, 177);
+}
+
+.boxes>a>h3:hover{
+text-decoration: underline;
+}
+
+/* .boxes>a>h3::after{
+    content: "";
+    display: block;
+    width: 0px;
+    height: 3px;
+    background-color: black;
+    transition: .3s;
+}
+
+.boxes>a>h3:hover::after{
+    width: 30%;
+} */
+
+
 
